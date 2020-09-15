@@ -1,0 +1,10 @@
+.\Obj\uarttest.o: uarttest.c
+.\Obj\uarttest.o: ..\Common\inc\LPC214x.H
+.\Obj\uarttest.o: ..\Common\inc\type.h
+.\Obj\uarttest.o: ..\Common\inc\irq.h
+.\Obj\uarttest.o: uart.h
+.\Obj\uarttest.o: ..\Common\inc\target.h
+.\Obj\uarttest.o: lcd.h
+.\Obj\uarttest.o: Serial.h
+.\Obj\uarttest.o: gsm.h
+.\Obj\uarttest.o: C:\Keil\ARM\RV31\INC\stdio.h

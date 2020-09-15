@@ -1,0 +1,1101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Rachit\Desktop\e_money\ARM7 EX\SOURCE\UART\UART.uvproj
+Project File Date:  02/13/2013
+
+<h2>Output:</h2>
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(228): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(238): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(240): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(256): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(274): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7980 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7956 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7956 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7956 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+".\Obj\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7956 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(249): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(311): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=7956 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(253): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(315): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8000 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(253): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(315): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8000 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(256): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(318): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8056 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(256): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(318): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8056 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(259): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(321): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8112 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(64): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(65): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(66): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(67): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(68): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(71): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(97): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(106): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(115): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(124): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(187): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(191): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(179): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i;
+uarttest.c:         ^
+uarttest.c(230): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"24017739"))==0)
+uarttest.c:          ^
+uarttest.c(240): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(242): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(258): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     // Entry mode     
+uarttest.c:              ^
+uarttest.c(260): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                      delay(10000);
+uarttest.c:                      ^
+uarttest.c(276): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:        if((strcmp("1111",keybuf))==0)
+uarttest.c:            ^
+uarttest.c: uarttest.c: 19 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(94): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(259): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c(321): warning:  #223-D: function "strcmp" declared implicitly
+gsm.c:          }while( strcmp(gpsdata->header,"GPRMC"));        
+gsm.c:                  ^
+gsm.c: gsm.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=8112 RO-data=32 RW-data=76 ZI-data=1324  
+FromELF: creating hex file...
+"..\..\..\UART1.axf" - 0 Error(s), 25 Warning(s).

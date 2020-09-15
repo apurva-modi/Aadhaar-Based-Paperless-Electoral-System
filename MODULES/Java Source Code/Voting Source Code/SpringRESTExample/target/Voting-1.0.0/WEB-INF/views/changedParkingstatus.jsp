@@ -1,0 +1,109 @@
+<%@page import="com.handinhand.model.User"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page import="com.handinhand.controller.MySQLAccess"%>
+<%@ page import="com.handinhand.model.*"%>
+<%@ page import="java.util.*"%>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #9dc8e2" align="center">
+<h3>Parking Application</h3>
+
+	<br>
+	<br>
+<%
+	//UserBean user = new UserBean();
+	MySQLAccess mySQLAccess = new MySQLAccess();
+	List<ParkingSlot> trsList1 = mySQLAccess.getAllParkingSlot1();
+	List<ParkingSlot> trsList2 = mySQLAccess.getAllParkingSlot2();
+%>
+<table align="center" class="table table-bordered" style="width: 1000px;">
+	<tr>
+		<td><table class="table table-bordered" style="background-color: #9dc8e2" >
+	<tr>
+		<th>Slot</th>
+		<th>Location</th>
+		<th>Status</th>
+	</tr>
+	<tr>
+		<%
+			/*while(itr.hasNext())
+			 {
+			 System.out.println(user.getId());*/
+			for (ParkingSlot parking : trsList1) {
+		%>
+		<td><%=parking.getId()%></td>
+		<td><%=parking.getSlotLocation()%></td>
+		<td><%=parking.getSlotVal()%></td>
+	</tr>
+	<%
+		}
+		//}
+	%>
+</table></td>
+		<td><table class="table table-bordered" style="background-color: #9dc8e2">
+	<tr>
+		<th>Slot</th>
+		<th>Location</th>
+		<th>Status</th>
+	</tr>
+	<tr>
+		<%
+			/*while(itr.hasNext())
+			 {
+			 System.out.println(user.getId());*/
+			for (ParkingSlot parking : trsList2) {
+		%>
+		<td><%=parking.getId()%></td>
+		<td><%=parking.getSlotLocation()%></td>
+		<td><%=parking.getSlotVal()%></td>
+	</tr>
+	<%
+		}
+		//}
+	%>
+</table></td>
+	</tr>
+
+</table>	
+	
+	
+<%
+	//UserBean user = new UserBean();
+	mySQLAccess = new MySQLAccess();
+	List<Parking> trsList = mySQLAccess.getAllParkings();
+%>
+<table align="center" class="table table-bordered" style="width: 1000px">
+	<tr>
+		<th>Id</th>
+		<th>Location</th>
+		<th>Entry Date</th>
+		<th>Exit Date</th>
+		<th>Amount</th>
+	</tr>
+	<tr>
+		<%
+			/*while(itr.hasNext())
+			 {
+			 System.out.println(user.getId());*/
+			for (Parking parking : trsList) {
+		%>
+		<td><%=parking.getId()%></td>
+		<td><%=parking.getLocation()%></td>
+		<td><%=parking.getEntry()%></td>
+		<td><%=parking.getExit()%></td>
+		<td><%=parking.getAmount()%></td>
+	</tr>
+	<%
+		}
+		//}
+	%>
+</table>
+</body>
+</html>

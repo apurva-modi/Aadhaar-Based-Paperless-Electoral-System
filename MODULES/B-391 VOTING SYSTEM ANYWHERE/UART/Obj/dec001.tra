@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\Obj\dec001.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup.o"'
+### List of Objects: adding '".\obj\uarttest.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\irq.o"'
+### List of Objects: adding '".\obj\lcd.o"'
+### List of Objects: adding '".\obj\delay.o"'
+### List of Objects: adding '".\obj\serial.o"'
+### List of Objects: adding '".\obj\gsm.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\obj\startup.o" ".\obj\uarttest.o" ".\obj\uart.o" ".\obj\irq.o" ".\obj\lcd.o" ".\obj\delay.o" ".\obj\serial.o" ".\obj\gsm.o" --library_type=microlib --strict --scatter ".\Obj\dec001.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\dec001.map" -o ".\Obj\dec001.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\dec001.axf'
+### ADS-LD Command File: '.\Obj\dec001.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\dec001.lnp', Handle=0x00000230
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\dec001.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

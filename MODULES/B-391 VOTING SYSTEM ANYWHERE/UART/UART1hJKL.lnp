@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\startup.o" "uarttest.o" "uart.o" "irq.o" "lcd.o" "delay.o" "serial.o" "gsm.o" --library_type=microlib --nodebug --strict --scatter "UART1hJKL.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\UART1hJKL.map" -o "UART1hJKL.axf"

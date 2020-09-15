@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "..\startup.o" "..\uarttest.o" "..\uart.o" "..\irq.o" "..\delay.o" "..\serial.o" "..\main_lcd.o" "..\softuart.o" "..\wifi.o" --library_type=microlib --strict --scatter "..\ration_ASHOK11112.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\ration_ASHOK11112.map" -o "..\ration_ASHOK11112.axf"

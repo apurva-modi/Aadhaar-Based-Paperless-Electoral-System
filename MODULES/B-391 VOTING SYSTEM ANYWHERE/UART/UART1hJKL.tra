@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'UART1hJKL.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\startup.o"'
+### List of Objects: adding '"uarttest.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"irq.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"serial.o"'
+### List of Objects: adding '"gsm.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\startup.o" "uarttest.o" "uart.o" "irq.o" "lcd.o" "delay.o" "serial.o" "gsm.o" --library_type=microlib --nodebug --strict --scatter "UART1hJKL.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\UART1hJKL.map" -o "UART1hJKL.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UART1hJKL.axf'
+### ADS-LD Command File: 'UART1hJKL.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UART1hJKL.lnp', Handle=0x00000228
+### Writing '.lnp' file
+### ADS-LD Command file 'UART1hJKL.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

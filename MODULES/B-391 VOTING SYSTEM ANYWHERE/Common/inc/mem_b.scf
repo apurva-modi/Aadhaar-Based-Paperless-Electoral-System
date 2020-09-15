@@ -1,0 +1,38 @@
+;/****************************************************************************
+; *   mem_b.scf:  Scatter file for Philips LPC214x Family 
+; *   Microprocessors
+; *
+; *   Copyright(C) 2006, Philips Semiconductor
+; *   All rights reserved.
+; *
+; *   History
+; *   2005.10.01  ver 1.00    Prelimnary version, first Release
+; *
+;*****************************************************************************/
+; code loaded to SRAM 0x40000000 for execution, build for debugging
+
+ROM_LOAD 0x40000000
+{
+    ROM_EXEC 0x40000000
+    {
+        Startup.o (vectors, +First)
+        * (+RO)
+    }
+
+    IRAM 0x40002800
+    {
+        Startup.o (MyStacks)
+        * (+RW,+ZI)
+    }
+
+    HEAP +0 UNINIT
+    {
+        Startup.o (Heap)
+    }
+
+    STACKS 0x40004000 UNINIT
+    {
+        Startup.o (Stacks)
+    }
+}
+

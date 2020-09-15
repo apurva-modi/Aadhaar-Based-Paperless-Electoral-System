@@ -1,0 +1,124 @@
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uarttest.c...
+uarttest.c(77): warning:  #1295-D: Deprecated declaration init_key - give arg types
+uarttest.c:   void init_key();
+uarttest.c:        ^
+uarttest.c(78): warning:  #1295-D: Deprecated declaration scan_row1 - give arg types
+uarttest.c:   void scan_row1();
+uarttest.c:        ^
+uarttest.c(79): warning:  #1295-D: Deprecated declaration scan_row2 - give arg types
+uarttest.c:   void scan_row2();
+uarttest.c:        ^
+uarttest.c(80): warning:  #1295-D: Deprecated declaration scan_row3 - give arg types
+uarttest.c:   void scan_row3();
+uarttest.c:        ^
+uarttest.c(81): warning:  #1295-D: Deprecated declaration scan_row4 - give arg types
+uarttest.c:   void scan_row4();
+uarttest.c:        ^
+uarttest.c(86): warning:  #1295-D: Deprecated declaration scan_key - give arg types
+uarttest.c:   unsigned char scan_key();
+uarttest.c:                 ^
+uarttest.c(111): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(120): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(129): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(138): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(20);
+uarttest.c:     ^
+uarttest.c(213): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);
+uarttest.c:     ^
+uarttest.c(217): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:     delay(10000);
+uarttest.c:     ^
+uarttest.c(272): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:                if((strcmp("1503",keybuf))==0)
+uarttest.c:                    ^
+uarttest.c(191): warning:  #177-D: variable "i" was declared but never referenced
+uarttest.c:     int i,hold;
+uarttest.c:         ^
+uarttest.c(306): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp( UART0Buffer,"06761481"))==0)
+uarttest.c:          ^
+uarttest.c(308): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);       
+uarttest.c:              ^
+uarttest.c(310): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(315): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:              lcd_command_write(1);     
+uarttest.c:              ^
+uarttest.c(317): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:              delay(10000);
+uarttest.c:              ^
+uarttest.c(322): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:      lcd_command_write(1);     // Entry mode     
+uarttest.c:      ^
+uarttest.c(324): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:        delay(10000);
+uarttest.c:        ^
+uarttest.c(342): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:      if((strcmp("1234",keybuf))==0)
+uarttest.c:          ^
+uarttest.c(385): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:     lcd_command_write(1);    
+uarttest.c:     ^
+uarttest.c(413): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                                     delay(10000);
+uarttest.c:                                     ^
+uarttest.c(423): warning:  #223-D: function "strcmp" declared implicitly
+uarttest.c:             if(strcmp(sms_dataa.phone_num,"+918553494528")== 0)
+uarttest.c:                ^
+uarttest.c(425): warning:  #223-D: function "lcd_command_write" declared implicitly
+uarttest.c:                     lcd_command_write(1);    
+uarttest.c:                     ^
+uarttest.c(427): warning:  #223-D: function "delay" declared implicitly
+uarttest.c:                     delay(10000);
+uarttest.c:                     ^
+uarttest.c(434): warning:  #1-D: last line of file ends without a newline
+uarttest.c:   }
+uarttest.c:    ^
+uarttest.c: uarttest.c: 28 warnings, 0 errors
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+compiling delay.c...
+compiling Serial.c...
+compiling gsm.c...
+gsm.c(87): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial(num);
+gsm.c:          ^
+gsm.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:          GsmPutSSerial( str );           
+gsm.c:          ^
+gsm.c(191): warning:  #223-D: function "lcd_command_write" declared implicitly
+gsm.c:          lcd_command_write(1);     // Entry mode     
+gsm.c:          ^
+gsm.c(188): warning:  #177-D: variable "temp1" was declared but never referenced
+gsm.c:      unsigned char response[10],temp[20],temp1,sms[20];
+gsm.c:                                          ^
+gsm.c(188): warning:  #177-D: variable "sms" was declared but never referenced
+gsm.c:      unsigned char response[10],temp[20],temp1,sms[20];
+gsm.c:                                                ^
+gsm.c(291): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:       GsmPutSSerial(index);  
+gsm.c:       ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=9268 RO-data=32 RW-data=84 ZI-data=1748  
+FromELF: creating hex file...
+".\Obj\dinesh2.axf" - 0 Error(s), 36 Warning(s).

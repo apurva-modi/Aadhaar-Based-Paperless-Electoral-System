@@ -1,0 +1,15 @@
+..\uarttest.o: uarttest.c
+..\uarttest.o: ..\Common\inc\LPC214x.H
+..\uarttest.o: ..\Common\inc\type.h
+..\uarttest.o: ..\Common\inc\irq.h
+..\uarttest.o: uart.h
+..\uarttest.o: ..\Common\inc\target.h
+..\uarttest.o: C:\Keil\ARM\RV31\INC\string.h
+..\uarttest.o: C:\Keil\ARM\RV31\INC\stdio.h
+..\uarttest.o: C:\Keil\ARM\RV31\INC\stdlib.h
+..\uarttest.o: lcd_arm.h
+..\uarttest.o: Serial.h
+..\uarttest.o: delay.h
+..\uarttest.o: wifi.h
+..\uarttest.o: SOFTUART.h
+..\uarttest.o: C:\Keil\ARM\INC\Philips\LPC21xx.H
